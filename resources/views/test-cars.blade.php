@@ -12,7 +12,7 @@
 <h1>Il nostro parco auto</h1>
 <ul>
 @foreach($modelCar as $key)
-  <li> {{$key -> brand}} {{$key -> name}} <b> immatricolazione: </b> {{$key -> date}} </li>
+  <li> {{$key -> brand}} {{$key -> name}} <b> immatricolazione: </b> {{$key -> date}} annuncio n°{{$key-> id}}</li>
 @endforeach
 </ul>
 </body>
