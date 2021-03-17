@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/','cars@search');
+Route::get('/carshop','cars@search');
